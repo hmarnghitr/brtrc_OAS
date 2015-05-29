@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<!--This is my creative task form-->
+
+<html>
+  <head>
+    <title>Creative Task Form</title>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/formStyles.css">
+  </head>
+  <body>
+    <h1>Creative Task Form</h1>
+
+    <form action="">
+      <fieldset>
+        <legend>Please Fill out the form</legend>
+
+        <div class="form-row">
+          <label for="name">POC Name</label>
+          <div class="name-fields">
+            <input type="text" name="name[first]" placeholder="First" id="name" autofocus>
+            <input type="text" name="name[last]" placeholder="Last">
+          </div>
+        </div>
+
+        <div class="form-row">
+          <label for="phone">Phone Number</label>
+          <div class="phone-number-fields">
+            <input type="text" name="phone[area_code]" class="phone" maxlength="3" id="phone"> &mdash;
+            <input type="text" name="phone[prefix]" class="phone" maxlength="3"> &mdash;
+            <input type="text" name="phone[line_number]" class="phone" maxlength="4">
+          </div>
+        </div>
+
+        <div class="form-row">
+          <label for="client">Client and Project Code</label>
+          <div class="name-fields">
+            <input type="text" name="name[client]" placeholder="Client Name" class="client" id="client">
+            <input type="text" name="code" placeholder="Project Code" class="code">
+          </div>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Key Dates</legend>
+
+        <div class="form-row">
+          <label for="draft">First Draft</label>
+          <div class="dates">
+            <input type="date" name="draft" placeholder="mm/dd/yy" class="dates" id="draft">
+            </div>
+           <div class="form-row">
+          <label for="draft">Due Date</label>
+          <div class="dates">
+            <input type="date" name="due" placeholder="mm/dd/yy" class="dates" id="due">
+            </div>
+
+          <div class="form-row">
+          <label>Task</label>  
+          <select>
+            <option>Select One</option>
+            <optgroup label="Design">
+              <option>Branding</option>
+              <option>Collateral</option>
+              <option>Environmental</option>
+              <option>PPT</option>
+              <option>Other</option>
+            </optgroup>
+            <optgroup label="Web/Mulitmedia">
+              <option>Web</option>
+              <option>Video</option>
+              <option>Multimedia</option>
+            </optgroup>
+          </select>
+        </div>
+
+        <div class="form-row">
+          <label for="description">Description</label>
+          <textarea name="description" id="description"></textarea>
+        </div>
+      </fieldset>
+
+      <fieldset>
+       <div class="form-row">
+          <label for="hours-budget">Hours and Budget</label>
+          <div class="hours-budget">
+            <input type="text" name="hours" placeholder="Hours Alloted" class="hours" id="hours">
+            <input type="text" name="budget" placeholder="Budget" class="budget">
+          </div>
+        </div>
+
+        <div class="form-row">
+          <label for="delivery">Delivery Address</label>
+          <textarea id="delivery"></textarea>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <input type="submit" value="Submit">
+      </fieldset>
+    </form>
+  </body>
+</html>
