@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+	<meta charset="utf-8">
+	<title>BRTRC: Operational Advisory Services</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	</head>
+<body>
+<header>
+	<img src="img/BRTRC_OAS_logo.png" class="img_wrapper" alt="BRTRC: Operational Advisory Services" align="left">
+	<!--Mobile only, hamburger code will go here-->
+	<nav>
+			<!--Desktop only-->
+				<ul id="topnav">
+					<li><a href="#portfolio">Portfolio</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#contact">Contact</a></li>
+					<li><a href="http://www.brtrc.com" target="_blank">BRTRC</a></li>
+				</ul>
+			</nav>
+</header>
+<!--My pages will actually be sections? since I'm doing a one page scroll format-->
+<section id="portfolio">
+<div class="wrapper">
+  <h1>Portfolio</h1>
+	<!--Filter nav buttons-->
+	<div id="filters" class="button-group">  
+		<button class="button is-checked" data-filter="*">All</button>
+		<button class="button" data-filter=".branding">Branding</button>
+		<button class="button" data-filter=".collateral">Collateral</button>
+		<button class="button" data-filter=".multimedia">Multimedia</button>
+		<button class="button" data-filter=".environmental">Environmental</button>
+		</div>
+
+	<!--Populated by the cool jQuery isotope plugin-->
+	<div class="isotope">
+				<div class="port-item branding" data-category="branding"><img src="img/thumbs/PortfolioThumb-bran-1.png" alt="logo-1" /></div>
+				<div class="port-item branding" data-category="branding"><img src="img/thumbs/PortfolioThumb-bran-2.png" alt="logo-2" /></div>
+				<div class="port-item branding" data-category="branding"><img src="img/thumbs/PortfolioThumb-bran-3.png" alt="logo-3" /></div>
+				<div class="port-item branding" data-category="branding"><img src="img/thumbs/PortfolioThumb-bran-4.png" alt="logo-4" /></div>
+				<div class="port-item collateral" data-category="collateral"><img src="img/thumbs/PortfolioThumb-col-1.png" alt="collateral-1" /></div>
+				<div class="port-item collateral" data-category="collateral"><img src="img/thumbs/PortfolioThumb-col-2.png" alt="collateral-2" /></div>
+				<div class="port-item collateral" data-category="collateral"><img src="img/thumbs/PortfolioThumb-col-3.png" alt="collateral-3" /></div>
+				<div class="port-item collateral" data-category="collateral"><img src="img/thumbs/PortfolioThumb-col-4.png" alt="collateral-4" /></div>
+				<div class="port-item collateral" data-category="collateral"><img src="img/thumbs/PortfolioThumb-col-5.png" alt="collateral-5" /></div>
+				<div class="port-item environmental" data-category="environmental"><img src="img/thumbs/PortfolioThumb-env-1.png" alt="environmental-1" /></div>
+				<div class="port-item environmental" data-category="environmental"><img src="img/thumbs/PortfolioThumb-env-2.png" alt="environmental-2" /></div>
+				<div class="port-item environmental" data-category="environmental"><img src="img/thumbs/PortfolioThumb-env-3.png" alt="environmental-3" /></div>
+				<div class="port-item multimedia" data-category="multimedia"><img src="img/thumbs/PortfolioThumb-mult-1.png" alt="multimedia-1" /></div>
+				<div class="port-item multimedia" data-category="multimedia"><img src="img/thumbs/PortfolioThumb-mult-2.png" alt="multimedia-2" /></div>
+				<div class="port-item multimedia" data-category="multimedia"><img src="img/thumbs/PortfolioThumb-mult-3.png" alt="multimedia-3" /></div>
+	</div>
+</div>
+
+</section>
+
+<section id="about">
+<h1>About</h1>
+	<!--This section has a submenu in the form of tabs-->
+<div class="contents">
+	<ul class="tabs">
+		<li class="tab-link current" data-tab="tab-1">Creative Team </li>
+		<li class="tab-link" data-tab="tab-2">Awards </li>
+		<li class="tab-link" data-tab="tab-3">Clients </li>
+	</ul>
+	<!--Content for the sub sections-->
+	<div id="tab-1" class="tab-content current">
+	<div class="arrow-down"></div>
+	<img src="img/creative-Image.png" class="img_wrapper" alt="creative image" align="left">
+	<h2>Creative Team</h2>
+	<p>Consists of a diverse blend of individuals with extensive experience in outreach support and marketing services.
+	We have provided exceptional strategic communications support to numerous clients by understanding government protocol, regulations, and processes. Our insight enables us to build and execute marketing campaigns that address the government's unique needs.</p>
+	</div>
+
+	<div id="tab-2" class="tab-content">
+	<div class="arrow-down-2"></div>
+	<img src="img/creative-Image.png" class="img_wrapper" alt="creative image" align="left">
+	<h2>Awards</h2>
+	<p><strong>2015 Award of Excellence,</strong> Interactive Multimedia - Special Interest<br>The Communicator Awards | April 2015 <br>
+	For the FBI BCOE GIS Tablet interface <br></p>
+
+	<p><strong>2014 Platinum Award,</strong> Video<br>
+	Hermes Creative Awards | April 2014 <br>
+	For RDECOM's animated video</p>
+	</div>
+	
+	<div id="tab-3" class="tab-content">
+	<div class="arrow-down-3"></div>
+	<h2>Clients</h2>
+	<p>We support quite a few Government organizations blah blah blah....</p>
+	</div>
+</div>
+
+</section>
+
+<section id="contact">
+<h1>Contact</h1>
+<div id="main">
+	<!--This section will be a two column section where address will be on the left, and the task form button and some text about it will be to the right-->
+	<p>BRTRC Corporate Headquarters is located in the Washington DC Metro area, just outside of the beltway in Vienna (Tysons), Virginia.</p>
+	<p><strong>CORPORATE HEADQUARTERS</strong><br>
+8521 Leesburg Pike<br>
+Suite 500 <br>
+Vienna, VA 22182<br>
+(703) 204-9277<br>
+(800) 307-9277<br>
+Fax: (703) 204-9447<br>
+
+<a href="mailto:creative@brtrc.com">creative@brtrc.com</a></p>
+</div>
+<aside id="sidebar">
+<div class="task">
+	<p>Libero est praesent felis auctor, quam pulvinar curabitur tincidunt libero, eros condimentum metus mauris sollicitudin et. Diam dolor quis diam praesentium, erat purus mollis suspendisse, dolor rutrum vitae. </p>
+	
+	<div class="task_btn"><a href="#">Task Form</a></div>
+	<!--Need to figure out how to do the form-->
+</div>
+</section>
+<footer>
+		<div>
+			<p>© 2015 BRTRC. developed by Henry Marnghitr</p>
+		</div>
+</footer>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script type="text/javascript" src="js/index.js"></script>
+		<!--isotope js-->
+		<script src="js/isotope.pkgd.js"></script>
+</body>
+</html>
