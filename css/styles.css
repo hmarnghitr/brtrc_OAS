@@ -9,6 +9,7 @@ header {
 	width:100%;
 	background: linear-gradient(to bottom, white, #ccc 240%);
 	margin-left: 0;
+	overflow: hidden;
 
 }
 
@@ -387,7 +388,10 @@ ul.tabs{
 	nav {
         text-align: center;
     }
-  
+#topnav ul {
+	display: block;
+	width: 100%;
+}
 
 #topnav li {
 	font-family: 'Open Sans', sans-serif;
@@ -420,8 +424,8 @@ ul.tabs{
     }  
 
 	.hamburger {
-		width: 40px;
-    	margin: 20px;
+		width: 35px;
+    	margin: 5px 20px;
 	}
 
 	.img_wraper {
@@ -431,7 +435,7 @@ ul.tabs{
 
 
 	.small-logo {
-		padding: 30px;
+		padding: 20px;
 		display: block;
 	}
   
