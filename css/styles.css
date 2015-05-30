@@ -317,6 +317,11 @@ ul.tabs{
 		letter-spacing: 0.05em;
 		text-decoration: none;
 		text-transform: uppercase;
+		background-color: #002855;
+		border-radius: 10px;
+		padding: 10px;
+		text-align: center;
+		width: 50%;
 	}
 
 	.task_btn a:hover {
@@ -334,3 +339,127 @@ ul.tabs{
 	padding: 20px;
 	color: white;
 }
+.hamburger {
+    color: #002855;
+    padding: 20px;
+    margin: 10px;
+    text-decoration: none;
+    font-size:30px;
+
+    float: left;
+    display: none;
+}
+
+	.small-logo {
+		padding: 10px;
+		display: none;
+	}
+
+	.med-logo {
+		padding: 10px;
+		display: none;
+	}
+
+/* ---------------- Mobile Styles ------------- */
+
+
+@media screen and (max-width:1060px) {
+    .desktop-only {
+        display: none;
+    }
+
+    .mobile-only {
+    	float: right;
+        display: block;
+     
+    }  
+
+	.hamburger {
+		width: 40px;
+    	margin: 20px;
+	}
+
+		.med-logo {
+		padding: 10px;
+		display: block;
+	}
+
+	nav {
+        text-align: center;
+    }
+  
+
+#topnav li {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	display: block;
+	width: 100%;
+}
+
+#topnav li a {
+	text-decoration: none;
+	color: #002855;
+	padding: 10px;
+}
+
+#topnav li a:hover {
+	color: #0097d1;
+	text-decoration: none;
+}
+
+
+@media screen and (max-width:642px) {
+    .desktop-only {
+        display: none;
+    }
+
+    .mobile-only {
+    	float: right;
+        display: block;
+     
+    }  
+
+	.hamburger {
+		width: 40px;
+    	margin: 20px;
+	}
+
+	.img_wraper {
+		padding: 10px;
+		display: none;
+	}
+
+
+	.small-logo {
+		padding: 30px;
+		display: block;
+	}
+  
+  	.med-logo {
+		padding: 10px;
+		display: none;
+	}
+
+	nav {
+        text-align: center;
+    }
+
+
+#topnav li {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	display: block;
+	width: 100%;
+}
+
+#topnav li a {
+	text-decoration: none;
+	color: #002855;
+	padding: 10px;
+}
+
+#topnav li a:hover {
+	color: #0097d1;
+	text-decoration: none;
+}
+

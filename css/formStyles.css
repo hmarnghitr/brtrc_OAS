@@ -1,19 +1,21 @@
 html {
   background: #fafafa url(images/background@2x.png) center top / 26px 26px repeat;
-  font: 13px/26px "Helvetica Neue", Verdana, sans-serif;
+  font-size: 13px/26px;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1;
 }
 body {
-  width: 702px;
-  margin: 52px auto;
+  width: 100%;
+  margin: 0 auto;
   box-shadow: 0 9px 63px rgba(0, 0, 0, 0.22);
   border-radius: 8px;
 }
 h1 {
-  text-align: center;
+  text-align: right;
   background: -webkit-linear-gradient(90deg, #ACABAD, #ECECEC);
   color: #5F5F5F;
   font-weight: 200;
-  font-size: 20px;
+  font-size: 24px;
   line-height: 51px;
   border-radius: 8px 8px 0 0;
   margin: 0;
@@ -24,6 +26,7 @@ h1 {
   border-right-color: #959595;
   border-bottom-color: #7E7E7E;
   border-left-color: #959595;
+  padding: 20px;
 }
 form {
   background: rgba(255, 255, 255, 0.6);
@@ -41,7 +44,7 @@ fieldset:not(:first-child) {
   margin-top: 26px;
 }
 legend {
-  padding: 0;
+  padding: 10px 0;
   font-weight: bold;
   display: block;
 }
@@ -67,7 +70,7 @@ select {
   border: 1px solid #BCBCBC;
   padding: 6px;
   margin: 0;
-  background: #FFF9E2;
+  background: #d9f0f8;
   border-radius: 4px;
 }
 textarea:focus,
@@ -103,3 +106,9 @@ input[type="text"].phone {
 textarea {
   display: block;
 }
+
+    .img_wrapper {
+      margin: 10px auto;
+      padding: 10px;
+      float: left;
+    }

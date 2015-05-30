@@ -19,7 +19,10 @@ var $container = $('.isotope').isotope({
     itemSelector: '.port-item',
     layoutMode: 'fitRows',
   });
+// filter functions
+  var filterFns = {
 
+      };
  // bind filter button click
   $('#filters').on( 'click', 'button', function() {
     var filterValue = $( this ).attr('data-filter');
@@ -48,6 +51,13 @@ var $container = $('.isotope').isotope({
     $(this).addClass('current');
     $("#"+tab_id).addClass('current');
   })
+
+//hamburger code
+
+  $('.hamburger').on('click', function() {
+    $('.navigation').slideToggle();
+  }
+  );
 
 
 });
