@@ -227,6 +227,11 @@ p {
 			width: 100%;
 		}
 
+		.contents {
+			display: block;
+			padding-bottom: 400px;
+		}
+
 		.contents h2 {
 			width: 65%;
 			padding-right: 20px;
@@ -285,7 +290,7 @@ p {
 			z-index: 2;
 		}
 /* contact sections */
-	#main {
+	.main {
 		padding: 0 20px;
 		float: left;
 		width: 48%;
@@ -293,18 +298,22 @@ p {
 		margin: 20px;
 	}
 
-	#main a {
+	.main a {
 		color: #0097d1;
 		text-decoration: none;
 	}
 
-	#sidebar {
-		padding: 0 20px;
+	.sidebar {
+		padding: 20px;
 		float: right;
 		width: 48%;
 		color: #888;
 		margin-top: 20px;
 	}
+	.task {
+		margin: 15px 20px;
+		padding: 5px 10px;
+}
 
 	.task-btn {
 		padding: 20px 0;
@@ -444,7 +453,7 @@ p {
     	margin: 20px;
 	}
 
-		.med-logo {
+	.med-logo {
 		padding: 10px;
 		display: block;
 	}
@@ -492,6 +501,7 @@ p {
 /* ---------------- tab section now vertical reading ------------- */
 .contents {
 	display: block;
+	padding-bottom: 1600px;
 }
 
 .contents ul{
@@ -538,7 +548,7 @@ p {
 }
 
 /* contact sections ------------------*/
-	#main {
+	.main {
 		padding: 0 20px;
 		float: left;
 		width: 100%;
@@ -546,17 +556,17 @@ p {
 		margin: 10px;
 	}
 
-	#main a {
+	.main a {
 		color: #0097d1;
 		text-decoration: none;
 	}
 
-	#sidebar {
-		padding: 0 20px;
+	.sidebar {
+		padding: 0 40px;
 		float: left;
-		width: 100%;
+		width: 90%;
 		color: #888;
-		margin-top: 10px;
+		margin: 10px;
 	}
 
 /* ----------------smaller device ------------------*/
