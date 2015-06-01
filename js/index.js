@@ -52,12 +52,4 @@ var $container = $('.isotope').isotope({
     $("#"+tab_id).addClass('current');
   })
 
-//hamburger code
-
-  $('.hamburger').on('click', function() {
-    $('.navigation').slideToggle();
-  }
-  );
-
-
 });
