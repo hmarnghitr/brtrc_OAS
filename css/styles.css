@@ -9,7 +9,7 @@ header {
 	width:100%;
 	background: linear-gradient(to bottom, white, #ccc 240%);
 	margin-left: 0;
-	overflow: hidden;
+	overflow: auto;
 
 }
 
@@ -206,7 +206,7 @@ ul.tabs{
 
 		.img_wrapper {
 			margin: 10px auto;
-			padding: 20px;
+			padding: 10px;
 			float: left;
 		}
 
@@ -227,13 +227,13 @@ ul.tabs{
 		}
 
 		.contents h2 {
-			width: 60%;
+			width: 65%;
 			padding-right: 20px;
 			float: right;
 		}
 
 		.contents p {
-			width: 60%;
+			width: 65%;
 			padding-right: 20px;
 			float: right;
 		}
@@ -305,14 +305,11 @@ ul.tabs{
 		margin-top: 20px;
 	}
 
-	.task_btn {
-		background-color: #002855;
-		border-radius: 10px;
-		padding: 10px;
-		text-align: center;
+	.task-btn {
+		padding: 20px 0;
 	}
 
-	.task_btn a {
+	.task a {
 		color: white;
 		font-family: 'Open Sans', sans-serif;
 		letter-spacing: 0.05em;
@@ -320,12 +317,13 @@ ul.tabs{
 		text-transform: uppercase;
 		background-color: #002855;
 		border-radius: 10px;
-		padding: 10px;
+		padding: 10px 100px;
+		margin-top: 40px;
+		margin-bottom: 40px;
 		text-align: center;
-		width: 50%;
 	}
 
-	.task_btn a:hover {
+	.task a:hover {
 		color: #0097d1;
 	}
 
@@ -361,6 +359,40 @@ ul.tabs{
 		display: none;
 	}
 
+	/* ---------------- Cover image for contact area----*/
+
+	.cont-image {
+		display: inline-block;
+		background-color: black;
+		width: 100%;
+}
+
+	/* ---------------- Portfolio description pages ------------- */
+
+.port-desc {
+	padding: 20px;
+	width: 80%;
+}
+
+.port-desc h1 {
+ 	font-family: 'Open Sans', sans-serif;
+ 	color: #002855;
+}
+
+.port-desc p {
+ 	font-family: 'Open Sans', sans-serif;
+ 	color: #333;
+}
+
+.port-img {
+	padding: 10px;
+	margin: 10px;
+	float: left;
+	width: 100%;
+}
+
+
+
 /* ---------------- Mobile Styles ------------- */
 
 
@@ -371,6 +403,7 @@ ul.tabs{
 
     .mobile-only {
     	float: right;
+
         display: block;
      
     }  
@@ -412,6 +445,77 @@ ul.tabs{
 }
 
 
+/* ---------------- tab section now vertical reading ------------- */
+.contents {
+	display: block;
+}
+
+.contents ul{
+	display: none;
+}
+
+.contents h2 {
+	width: 100%;
+	padding-left: 10px;
+	float: left;
+		}
+
+.contents p {
+	width: 100%;
+	padding: 0 10px;
+	float: left;
+		}
+
+#tab-1 {
+	display: block;
+	float:left;
+	padding: 10px;
+}
+#tab-2 {
+	display: block;
+	float:left;
+	padding: 10px;
+}
+#tab-3 {
+	display: block;
+	float:left;
+	padding: 10px;
+}
+
+.arrow-down {
+	display: none;
+}
+.arrow-down-2 {
+	display: none;
+}
+
+.arrow-down-3 {
+	display: none;
+}
+
+/* contact sections ------------------*/
+	#main {
+		padding: 0 20px;
+		float: left;
+		width: 100%;
+		border-right: 0;
+		margin: 10px;
+	}
+
+	#main a {
+		color: #0097d1;
+		text-decoration: none;
+	}
+
+	#sidebar {
+		padding: 0 20px;
+		float: left;
+		width: 100%;
+		color: #888;
+		margin-top: 10px;
+	}
+
+/* ----------------smaller device ------------------*/
 @media screen and (max-width:642px) {
     .desktop-only {
         display: none;
@@ -465,5 +569,28 @@ ul.tabs{
 #topnav li a:hover {
 	color: #0097d1;
 	text-decoration: none;
+}
+
+/* Filter nav */
+.button-group{
+	text-align: center;
+	margin: 0;
+}
+
+.button {
+  display: block;
+  border-bottom: 1px solid white;
+  color: #0097d1;
+  background-color: #002855;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  padding-bottom: 5px;
+  padding-top: 7px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+	color: white;
 }
 
